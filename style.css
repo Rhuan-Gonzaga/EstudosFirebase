@@ -1,0 +1,43 @@
+#sair {
+    display: none;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+#entrar{
+    margin-left: 5px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#sair{
+    margin-left: 5px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 25px;
+}
+
+#criar{
+    margin-left: 5px;
+    padding: 5px;
+    background-color:orange;
+    color: white;
+    border: none;
+    font-size: 20px;
+
+}
+
+h2{
+    color: red;
+}
