@@ -57,7 +57,7 @@ criar.addEventListener("click",f =>{
     autenticacao.createUserWithEmailAndPassword(email,senha).then(()=>{
         alert("NOVO USUARIO CRIADO");
     }).catch(()=>{
-        novo.innerText = "Para criar um novo usuario é só digitar um email e uma senha e depois clicar no botão INSCREVA-SE"
+        novo.innerText = "Para criar um novo usuario é só digitar um novo email e uma nova senha(minimo 6 caracteres) e depois clicar no botão INSCREVA-SE"
         alert("ERRO AO CRIAR UM NOVO USUARIO")
     })
 })
